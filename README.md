@@ -1,6 +1,6 @@
-# Lightweight Super-Resolution Head for Human Pose Estimation [arxiv](https://arxiv.org/abs/2303.00440)
+# Lightweight Super-Resolution Head for Human Pose Estimation [arxiv]()
 
-> [**Lightweight Super-Resolution Head for Human Pose Estimation**](https://arxiv.org/abs/2303.00440)<br>
+> [**Lightweight Super-Resolution Head for Human Pose Estimation**]()<br>
 > Accepted by **ACM MM 2023**<br>
 > [Haonan Wang](https://github.com/haonanwang0522), Jie Liu, Jie Tang, [Gangshan Wu](http://mcg.nju.edu.cn/member/gswu/en/index.html)
 
@@ -13,7 +13,7 @@
 ## Introduction
 This is the official implementation of [Lightweight Super-Resolution Head for Human Pose Estimation](). We present a Lightweight Super-Resolution Head , which predicts heatmaps with a spatial resolution higher than the input feature maps (or even consistent with the input image) by super-resolution, to effectively reduce the quantization error and the dependence on further post-processing. Besides, we propose SRPose to gradually recover the HR heatmaps from LR heatmaps and degraded features in a coarse-to-fine manner. To reduce the training difficulty of HR heatmaps, SRPose applies SR heads to supervise the intermediate features in each stage. In addition, the SR head is a lightweight and generic head that applies to top-down and bottom-up methods. 
 
-<img width="1183" alt="image" src="E:\oneDrive\homework\MM\SRPose(ViTPose)\overall.png">
+<img width="1183" alt="image" src="">
 
 ## Experiments
 
@@ -338,7 +338,7 @@ We acknowledge the excellent implementation from [mmpose](https://github.com/ope
 
 ## Citations
 If you use our code or models in your research, please cite with:
-```
+<!-- ```
 @misc{li20212d,
       title={Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?}, 
       author={Yanjie Li and Sen Yang and Shoukui Zhang and Zhicheng Wang and Wankou Yang and Shu-Tao Xia and Erjin Zhou},
@@ -347,4 +347,4 @@ If you use our code or models in your research, please cite with:
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
-```
+``` -->
