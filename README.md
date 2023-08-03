@@ -5,7 +5,7 @@
 > [Haonan Wang](https://github.com/haonanwang0522), Jie Liu, Jie Tang, [Gangshan Wu](http://mcg.nju.edu.cn/member/gswu/en/index.html)
 
 ## News!
-- [2023.08.17] The pretrained models are released in [Google Drive](https://drive.google.com/drive/folders/1ErxLJjrvgXNuNaflN62fvS6nhJfmBEjH?usp=drive_link)!
+- [2023.08.03] The pretrained models are released in [Google Drive](https://drive.google.com/drive/folders/1ErxLJjrvgXNuNaflN62fvS6nhJfmBEjH?usp=drive_link)!
 - [2023.07.30] The codes for SRPose are released!
 - [2023.07.29] Our paper ''Lightweight Super-Resolution Head for Human Pose Estimation'' has been accpeted by **ACM MM 2023**. If you find this repository useful please give it a star 🌟. 
 
