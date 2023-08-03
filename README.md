@@ -1,6 +1,6 @@
-# Lightweight Super-Resolution Head for Human Pose Estimation [arxiv]()
+# Lightweight Super-Resolution Head for Human Pose Estimation [arxiv](https://arxiv.org/abs/2307.16765)
 
-> [**Lightweight Super-Resolution Head for Human Pose Estimation**]()<br>
+> [**Lightweight Super-Resolution Head for Human Pose Estimation**](https://arxiv.org/abs/2307.16765)<br>
 > Accepted by **ACM MM 2023**<br>
 > [Haonan Wang](https://github.com/haonanwang0522), Jie Liu, Jie Tang, [Gangshan Wu](http://mcg.nju.edu.cn/member/gswu/en/index.html)
 
@@ -11,7 +11,7 @@
 
 
 ## Introduction
-This is the official implementation of [Lightweight Super-Resolution Head for Human Pose Estimation](). We present a Lightweight Super-Resolution Head , which predicts heatmaps with a spatial resolution higher than the input feature maps (or even consistent with the input image) by super-resolution, to effectively reduce the quantization error and the dependence on further post-processing. Besides, we propose SRPose to gradually recover the HR heatmaps from LR heatmaps and degraded features in a coarse-to-fine manner. To reduce the training difficulty of HR heatmaps, SRPose applies SR heads to supervise the intermediate features in each stage. In addition, the SR head is a lightweight and generic head that applies to top-down and bottom-up methods. 
+This is the official implementation of [Lightweight Super-Resolution Head for Human Pose Estimation](https://arxiv.org/abs/2307.16765). We present a Lightweight Super-Resolution Head , which predicts heatmaps with a spatial resolution higher than the input feature maps (or even consistent with the input image) by super-resolution, to effectively reduce the quantization error and the dependence on further post-processing. Besides, we propose SRPose to gradually recover the HR heatmaps from LR heatmaps and degraded features in a coarse-to-fine manner. To reduce the training difficulty of HR heatmaps, SRPose applies SR heads to supervise the intermediate features in each stage. In addition, the SR head is a lightweight and generic head that applies to top-down and bottom-up methods. 
 
 <img width="1183" alt="image" src="">
 
@@ -315,7 +315,7 @@ This is the official implementation of [Lightweight Super-Resolution Head for Hu
 Please refer to [THIS](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch) to prepare the environment step by step.
 
 ### 2. Model Zoo
-Pretrained models are provided in our [model zoo]().
+Pretrained models are provided in our [model zoo](https://drive.google.com/drive/folders/1ErxLJjrvgXNuNaflN62fvS6nhJfmBEjH?usp=drive_link).
 
 ### 3. Trainging
 ```bash
@@ -338,13 +338,11 @@ We acknowledge the excellent implementation from [mmpose](https://github.com/ope
 
 ## Citations
 If you use our code or models in your research, please cite with:
-<!-- ```
-@misc{li20212d,
-      title={Is 2D Heatmap Representation Even Necessary for Human Pose Estimation?}, 
-      author={Yanjie Li and Sen Yang and Shoukui Zhang and Zhicheng Wang and Wankou Yang and Shu-Tao Xia and Erjin Zhou},
-      year={2021},
-      eprint={2107.03332},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+```
+@article{wang2023lightweight,
+  title={Lightweight Super-Resolution Head for Human Pose Estimation},
+  author={Wang, Haonan and Liu, Jie and Tang, Jie and Wu, Gangshan},
+  journal={arXiv preprint arXiv:2307.16765},
+  year={2023}
 }
-``` -->
+```
