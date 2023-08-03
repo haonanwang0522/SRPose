@@ -5,7 +5,7 @@
 > [Haonan Wang](https://github.com/haonanwang0522), Jie Liu, Jie Tang, [Gangshan Wu](http://mcg.nju.edu.cn/member/gswu/en/index.html)
 
 ## News!
-<!-- - [2023.08.17] The pretrained models are released in [Google Drive]()! -->
+- [2023.08.17] The pretrained models are released in [Google Drive](https://drive.google.com/drive/folders/1ErxLJjrvgXNuNaflN62fvS6nhJfmBEjH?usp=drive_link)!
 - [2023.07.30] The codes for SRPose are released!
 - [2023.07.29] Our paper ''Lightweight Super-Resolution Head for Human Pose Estimation'' has been accpeted by **ACM MM 2023**. If you find this repository useful please give it a star 🌟. 
 
@@ -13,7 +13,7 @@
 ## Introduction
 This is the official implementation of [Lightweight Super-Resolution Head for Human Pose Estimation](https://arxiv.org/abs/2307.16765). We present a Lightweight Super-Resolution Head , which predicts heatmaps with a spatial resolution higher than the input feature maps (or even consistent with the input image) by super-resolution, to effectively reduce the quantization error and the dependence on further post-processing. Besides, we propose SRPose to gradually recover the HR heatmaps from LR heatmaps and degraded features in a coarse-to-fine manner. To reduce the training difficulty of HR heatmaps, SRPose applies SR heads to supervise the intermediate features in each stage. In addition, the SR head is a lightweight and generic head that applies to top-down and bottom-up methods. 
 
-<img width="1183" alt="image" src="">
+<img width="1183" alt="image" src="https://github.com/haonanwang0522/SRPose/blob/main/overall.png">
 
 ## Experiments
 
